@@ -12,7 +12,7 @@ function App() {
        This was coded by Siphokazi Muhauli, and is 
       <a href="https://github.com/naledimuhauli/react-weather-app"
       target="_blank"
-      rel="noreferrer"> open sourced on GitHub</a>
+      rel="noreferrer"> open-sourced on GitHub</a>
       </footer>
       </header>
       </div>
