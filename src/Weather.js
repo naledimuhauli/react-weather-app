@@ -45,7 +45,7 @@ if(weatherData.ready){
                 <div className="row">
                     <div className="col-9">
                 <input type="text"
-                placeholder="Enter a city"
+                placeholder="Enter a city..."
                 className="form-control"
                 autoFocus="on"
                 onChange={handelChange} />
