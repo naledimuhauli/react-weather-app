@@ -26,7 +26,7 @@ function handelResponse(response){
 }
 
 function search(){
-    const apiKey= "bb0df6985c2eab6a171d64a6bacbb4e1";
+    const apiKey= "ed55b36e362d8733f7d859247cedeaf2";
     let apiUrl= `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handelResponse);
 }
@@ -60,7 +60,7 @@ if(weatherData.ready){
                 </div>
             </form>
             <WeatherInfo data={weatherData} />
-            <WeatherForecast />
+            <WeatherForecast  coord={weatherData.coord}/>
 </div>      
     );
 }else{
