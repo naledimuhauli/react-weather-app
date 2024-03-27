@@ -32,7 +32,8 @@
 .Weather .unit{
     position: relative;
     top: -22px;
-    font-size: 15px;
+    font-size: 18px;
+    margin-left: 5px;
 }
 
 .icon{
